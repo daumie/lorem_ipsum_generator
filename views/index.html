@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'>
+    <title>NodeJs Lorem Ipsum Generator</title>
+    <link rel='stylesheet' href='https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css' integrity='sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO'
+        crossorigin='anonymous'>
+    <script src='https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+</head>
+
+<body>
+    <div class='container'>
+        <div class='row'>
+
+            <div class='col-md-6'>
+                <h6 style='margin-top: 40px; margin-left: 100px'>NodeJs Lorem Ipsum Generator</h6>
+                <textarea id = textarea class='form-control' style='margin-top: 40px; margin-left: 100px; height: 200px'>{{lorem}}</textarea>
+                <form style='margin-top: 40px; margin-left: 100px' method='post' action='/'>
+                    <input type='number' name='number' placeholder='0' class='form-control'>
+                    <br>
+                    <select class='form-control' name='selected'>
+                        <option selected>Choose the type </option>
+                        <option value='1'>word(s)</option>
+                        <option value='2'>sentence(s)</option>
+                        <option value='3'>paragraph(s)</option>
+                    </select>
+                    <br>
+                    <button type='submit' class='btn btn-primary'>submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
