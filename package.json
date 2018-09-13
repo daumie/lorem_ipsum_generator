@@ -1,0 +1,27 @@
+{
+  "name": "domi_lorem",
+  "version": "0.0.1",
+  "description": "A simple lorem ipsum generator",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/daumie/lorem_ipsum_generator.git"
+  },
+  "keywords": [
+    "lorem",
+    "ipsum",
+    "generator"
+  ],
+  "author": "Dominic Motuka",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/daumie/lorem_ipsum_generator/issues"
+  },
+  "homepage": "https://github.com/daumie/lorem_ipsum_generator#readme",
+  "dependencies": {
+    "lorem-ipsum": "^1.0.6"
+  }
+}
